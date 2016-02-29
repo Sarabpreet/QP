@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app="testingApp">
 
 	<head>
 		<meta charset="utf-8">
@@ -19,6 +19,16 @@
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.min.js"></script>
+		
+		<!-- Firebase -->
+		<script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+		<!-- AngularFire -->
+		<script src="https://cdn.firebase.com/libs/angularfire/1.1.3/angularfire.min.js"></script>
+		
+		<script src="app.js"></script>
+		
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -34,7 +44,7 @@
 		<![endif]-->
 	</head>
 
-	<body>
+	<body ng-controller="SampleCtrl">
 <div class="inject">
 <a href="index.php"><div class="logo"></div></a>
 </div>
@@ -42,3 +52,4 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				
+
