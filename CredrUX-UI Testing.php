@@ -136,26 +136,3 @@ include 'pagebuilder/footer.php';
 
 
 
-<style>
-	
-
-section img {
-
-max-height: 300px;
-
-
-	}
-
-section p {
-font-size: .5em;
-}
-
-.reveal h5 { font-size: 1em; } 
-
-
-.reveal p { font-size: .4em; } 
-
-
-</style>
-
-

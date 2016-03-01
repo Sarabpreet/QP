@@ -21,6 +21,7 @@ include 'pagebuilder/header.php';
 
 
 			<section ng-repeat="slide in slides">
+							<h5>{{slide.drop}}</h5>
 							<img src="img/ui-testing/{{slide.file}}.png" alt="">
 							<p>
 								{{slide.comment}}
@@ -43,12 +44,13 @@ include 'pagebuilder/footer.php';
 
 
 
+
 <style>
 	
 
 section img {
 
-max-height: 300px;
+max-height: 300px !important;
 
 
 	}
@@ -64,5 +66,4 @@ font-size: .5em;
 
 
 </style>
-
 
