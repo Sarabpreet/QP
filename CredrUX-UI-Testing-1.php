@@ -21,7 +21,8 @@ include 'pagebuilder/header.php';
 
 
 			<section ng-repeat="slide in slides">
-							<h5>{{slide.drop}}</h5>
+							<h4>Bug ID : {{$index+1}}</h4>
+							<h5>{{slide.drop}}</h5> 
 							<img src="img/ui-testing/{{slide.file}}.png" alt="">
 							<p>
 								{{slide.comment}}
